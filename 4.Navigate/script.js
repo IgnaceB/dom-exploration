@@ -10,3 +10,6 @@ sec=document.querySelectorAll("section")
 sec[1].insertBefore(sec[2].querySelector("h2"),sec[1].lastElementChild)
 
 sec[2].insertBefore(sec[1].querySelector("h2"), sec[2].firstElementChild)
+
+sec[sec.length-1].remove()
+document.body.lastElementChild.remove()
