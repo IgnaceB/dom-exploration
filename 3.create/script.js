@@ -1,6 +1,6 @@
 /*
 */
-learner = ["Noah", "Lucie", "Athi","Leslie"]
+const learner = ["Noah", "Lucie", "Athi","Leslie"]
 
 let position = document.querySelector('article')
 
