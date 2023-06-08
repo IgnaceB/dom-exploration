@@ -33,7 +33,7 @@ let array = [255, 255, 255]
 
 
 const Myfunction = () => {
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         
         array[i] = Math.floor(Math.random()*array[i])
     }
