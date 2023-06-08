@@ -12,9 +12,7 @@ let newOption1 = new Option('Best franchise', 'good');
 let newOption2 = new Option('poor franchise', 'bad');
 franchise.add(newOption1, undefined)
 franchise.add(newOption2, undefined)
-cleanornot = (event) => {
 
-}
 
 
 items.forEach(element => {

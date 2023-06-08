@@ -5,7 +5,24 @@ inputboxes = document.querySelectorAll("input")
 const firstname = (e) => {
     console.log(e)
     form = document.getElementById("display-firstname")
-    form.textContent = form.textContent + e.key
+    // if (e.key=="Delete"|e.key=="Backspace"){
+    //     console.log(form.innerText)
+    //     let text=form.innerText
+    //     let newtext=text.slice(0,-1)
+    //     form.innerText=newtext
+    //     let textbox=inputboxes[0].value
+    //     let textspan=form.innerText
+    //     console.log(textbox.length)
+    //     console.log(textspan.length)
+    //     let dif = textbox.length-textspan.length
+    //     if(dif!=0) {
+    //         let newtext=text.slice(0,dif)
+    //         form.innerText=newtext
+    //     }
+    // }
+    // else
+    // {
+    form.innerText = e.target.value
 }
 const age = (e) => {
     console.log(inputboxes[1].value)
